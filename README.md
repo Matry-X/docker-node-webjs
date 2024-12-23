@@ -44,7 +44,7 @@ run in docker
 docker run -d \
   -e ARGO_DOMAIN="test.example.com" \
   -e ARGO_TOKEN="ey****J9" \
-  -e CLIENT_HOST='nezha.example.com' \
+  -e CLIENT_HOST='nezha.example.com:443' \
   -e CLIENT_SECRET='zk****ol' \
   -e WSPATH='argo' \
   -e WEB_USERNAME='admin' \
